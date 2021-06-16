@@ -23,7 +23,7 @@ import io.swagger.annotations.ApiOperation;
 @CrossOrigin
 public class OrderController {
 	@Autowired
-	private IOrderServices orderService;
+	private IOrderService orderService;
 	
 //	@Autowired
 //	OrderServiceImp orderServiceimpl;

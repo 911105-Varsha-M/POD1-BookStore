@@ -29,7 +29,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
-public class OrderServiceImp implements IOrderServices {
+public class OrderServiceImp implements IOrderService {
 	@Autowired
 	private JwtGenerator generate;
 	

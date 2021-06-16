@@ -28,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
-public class CartServiceImplimentation implements ICartService {
+public class CartServiceImplementation implements ICartService {
 	@Autowired
 	private JwtGenerator generate;
 	@Autowired

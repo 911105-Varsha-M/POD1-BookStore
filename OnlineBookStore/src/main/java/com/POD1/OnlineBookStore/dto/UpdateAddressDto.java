@@ -1,5 +1,7 @@
 package com.POD1.OnlineBookStore.dto;
 
+import com.POD1.OnlineBookStore.dto.UpdateAddressDto;
+
 import lombok.Data;
 
 @Data
