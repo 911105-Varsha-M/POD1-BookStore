@@ -1,5 +1,16 @@
 package com.POD1.OnlineBookStore.response;
 
-public class MailObject {
+import java.io.Serializable;
 
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+@Component
+@Data
+public class MailObject implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private String email;
+	private String subject;
+	private String message;
 }
