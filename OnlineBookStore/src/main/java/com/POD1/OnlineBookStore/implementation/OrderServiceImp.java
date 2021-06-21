@@ -133,11 +133,7 @@ public class OrderServiceImp implements IOrderService {
 	 				
 	 			 +userdetails.getEmail()+
 	 				" <br>"+"order details <br>"+" \n"+data+"\n"
-	 				+"please rate us below link<br>"+"\n"
-	 		+"http://localhost:4200/books/ratingreview<br>"
-	
-	 		+ "</body>"
-	 		+ " </html>" ;
+	 				+"Thanks for your Order !!!" ;
 			emailData.setEmail(userdetails.getEmail());
 	
 			emailData.setSubject("your Order is succefully placed");
