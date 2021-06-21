@@ -59,7 +59,7 @@ public class EmailProviderService{
 
 			mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress(emailContact));
 
-			mimeMessage.setReplyTo(InternetAddress.parse(" u cannot sandeep.rayala14@gmial.com",false));
+			mimeMessage.setReplyTo(InternetAddress.parse(" u cannot mohanraj01@gmial.com",false));
 
 			mimeMessage.setSubject(emailSubject);
 
